@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gray: #ccd2d9;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+main {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.breakline-heading span {
+  display: block;
+}
+
+.subheading-lg {
+  font-size: 1.75rem;
+  color: var(--gray);
+}
+
+.subheading-md {
+  font-size: 1.25rem;
+  color: var(--gray);
+}
+
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media screen and (min-width: 48em) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
