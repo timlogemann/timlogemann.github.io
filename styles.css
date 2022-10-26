@@ -21,6 +21,12 @@ main {
   padding-top: 10vh;
 }
 
+@supports (height: 100dvh) {
+	main {
+		height: calc(100dvh - var(--footer-height));
+	}
+}
+
 .profile {
   border-radius: 999px;
   aspect-ratio: 1/1;
