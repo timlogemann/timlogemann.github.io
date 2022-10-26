@@ -23,8 +23,8 @@ main {
 
 .profile {
   border-radius: 999px;
+  aspect-ratio: 1/1;
   width: 160px;
-  height: 160px;
 }
 
 .heading-title {
@@ -89,7 +89,7 @@ a:hover {
 
 @media screen and (min-width: 48em) {
   main {
-    padding-top: 20vh;
+    padding-top: 14vh;
   }
 
   .heading-title {
@@ -102,5 +102,10 @@ a:hover {
 
   .subheading-md {
     font-size: 2.25rem;
+  }
+
+  .profile {
+    width: 240px;
+    height: auto;
   }
 }
