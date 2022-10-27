@@ -4,6 +4,7 @@
 
 :root {
   --gray: #ccd2d9;
+  --dark-gray: hwb(212deg 65% 33%);
   --footer-height: 4.5rem;
 }
 
@@ -85,7 +86,6 @@ figure {
 }
 
 footer {
-  color: white;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -93,10 +93,12 @@ footer {
   padding: 1rem 1.5rem;
   height: var(--footer-height);
   -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  color: var(--dark-gray);
 }
 
 a {
-  color: white;
+  color: inherit;
   text-decoration: none;
   transition: linear 150ms ease-in;
   text-underline-offset: 2px;
