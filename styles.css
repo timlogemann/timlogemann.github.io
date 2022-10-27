@@ -127,7 +127,7 @@ a:hover {
 /* "Animation" */
 body:not(.js-disabled) figure::after {
   content: '';
-  width: 150%;
+  width: 200%;
   height: 100%;
   display: block;
   position: absolute;
@@ -168,7 +168,7 @@ body:not(.js-disabled) .js-animated-footer {
 }
 
 body.js-animate figure::after {
-  transform: translateX(400px);
+  transform: translateX(50%);
 }
 
 body.js-animate .profile {
