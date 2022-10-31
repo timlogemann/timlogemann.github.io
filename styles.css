@@ -110,7 +110,12 @@ a:hover {
 
 @media screen and (min-width: 48em) {
   main {
-    padding-top: 14vh;
+    padding-top: 10vmin;
+  }
+
+  figure {
+    width: 50vmin;
+    max-width: 600px;
   }
 
   .heading-title {
