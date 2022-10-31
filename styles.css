@@ -165,7 +165,7 @@ body:not(.js-disabled) .profile {
 body:not(.js-disabled) .js-animated-heading {
   opacity: 0;
   transform: translateY(-5px) scale(0.95);
-  transition: all 750ms ease-out 200ms;
+  transition: transition 750ms ease-out 200ms, opacity 750ms ease-out 200ms;
   transform-origin: top center;
 }
 
