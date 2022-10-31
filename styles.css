@@ -171,7 +171,7 @@ body:not(.js-disabled) .js-animated-heading {
 
 body:not(.js-disabled) .js-animated-footer {
   opacity: 0;
-  transition: all 1s ease-out 1s;
+  transition: opacity 1s ease-out 1s;
 }
 
 body.js-animate figure::after {
